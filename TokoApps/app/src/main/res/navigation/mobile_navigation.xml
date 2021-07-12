@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_entrybarang">
+
+    <fragment
+        android:id="@+id/nav_entrybarang"
+        android:name="com.anz.tokoapps.ui.entrybarang.EntryBarangFragment"
+        android:label="Entry Barang"
+        tools:layout="@layout/fragment_entrybarang" />
+
+    <fragment
+        android:id="@+id/nav_laporanbarang"
+        android:name="com.anz.tokoapps.ui.laporanbarang.LaporanBarangFragment"
+        android:label="Laporan Barang"
+        tools:layout="@layout/fragment_laporanbarang" />
+
+    <fragment
+        android:id="@+id/nav_aboutapp"
+        android:name="com.anz.tokoapps.ui.aboutapp.AboutAppFragment"
+        android:label="About App"
+        tools:layout="@layout/fragment_aboutapp" />
+
+    <fragment
+        android:id="@+id/nav_exit"
+        android:name="com.anz.tokoapps.ui.Exit"
+        android:label="Exit"
+        tools:layout="@layout/fragment_entrybarang" />
+</navigation>
